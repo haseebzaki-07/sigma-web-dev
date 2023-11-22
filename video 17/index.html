@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Types of selectors in CSS</title>
+    <style>
+      .red {
+        background-color: red;
+      }
+      #green {
+        background-color: yellow;
+      }
+      div > p {
+        color: blue;
+        background-color: pink;
+      }
+      div p {
+        color: blue;
+        background-color: pink;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      a:visited {
+        color: black;
+      }
+      a:link {
+        color: blue;
+      }
+      a:active {
+        color: blue;
+      }
+      a:hover {
+        background-color: blanchedalmond;
+      }
+      p:first-child {
+        background-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="one">
+      <p>I am first</p>
+      <p>I am second</p>
+    </main>
+    <div class="red">
+      I am a div
+      <article>
+        <p>I am a para</p>
+      </article>
+    </div>
+    <div id="green">I am another div</div>
+    <a href="https://www.google.com">Go To Google</a>
+    <a href="https://www.makemytrip.com">Go To MakeMyTrip</a>
+  </body>
+</html>
