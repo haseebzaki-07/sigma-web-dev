@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nav bar with variables</title>
+    <style>
+      :root {
+        --primary-color: rgb(52, 95, 213);
+        --text-color: white;
+        --secondary-color: rgb(141, 167, 237);
+      }
+      /* :root {
+        --primary-color: rgba(131, 217, 137, 0.748);
+        --text-color: white;
+        --secondary-color: rgb(140, 157, 204) 0.748; 
+      } */
+      body {
+        background-color: var(--secondary-color);
+      }
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      nav {
+        background-color: var(--primary-color);
+        padding: 12px 0px;
+      }
+      ul li {
+        display: inline;
+        padding: 23px;
+        font-weight: bolder;
+
+        cursor: pointer;
+
+        list-style: none;
+      }
+      ul li a {
+        color: var(--text-color);
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/">Contact</a></li>
+          <li><a href="/">Queries</a></li>
+        </ul>
+      </nav>
+    </header>
+  </body>
+</html>
+<a href=""></a>

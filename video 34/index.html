@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS floats and clear</title>
+    <style>
+        .cards{
+            border: 2px solid black;
+            display: flow-root;
+        }
+        img{
+            float: left;
+        }
+        
+        .card{
+            border: 2px solid brown;
+        }
+        .card:nth-child(3){
+            background-color: aqua;
+            clear: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="cards">
+        <img src="image.png" alt="" width="330px"
+        height="230px">
+        <div class="card">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam magni assumenda repudiandae possimus. At dolorem assumenda voluptatem odit tempora aspernatur cum. Vero doloribus inventore quam obcaecati tenetur aliquid quia, consectetur, perferendis ducimus deleniti explicabo.
+            </p>
+        </div>
+        <div class="card">
+            <p>demporibus aspernatur! Dolorem voluptas commodi deserunt temporibus dolor corrupti! Deserunt, quaerat quae id nulla, voluptatibus possimus, accusantium commodi fuga reprehenderit eveniet similique dolorem? Esse, corporis praesentium in error aperiam nulla voluptatibus dicta vero minima excepturi quae accusantium sequi veritatis, delectus maiores natus aliquam omnis! Optio, corporis! Esse est corporis unde asperiores distinctio molestiae tempore inventore tempora, omnis, eveniet illo quos aliquam nulla fuga error iste minima odit cumque natus doloremque? Nisi quae a consequuntur qui mollitia enim totam rem id recusandae velit laudantium aliquid eveniet, quibusdam eius cum tenetur optio. Ut, inventore autem! Id, ab mollitia alias omnis porro nisi error sapiente cum nobis deleniti ratione veritatis illum corporis itaque unde! Doloribus explicabo quaerat earum, blanditiis possimus asperiores odit mollitia alias numquam veniam autem nesciunt! Consequatur reprehenderit culpa quae! Delectus facilis ratione tempore animi repellat.</p>
+        </div>
+        <div class="card">card 3</div>
+    </div>
+</body>
+</html>

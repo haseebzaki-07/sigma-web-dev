@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Designing a layout</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      main {
+        background-color: black;
+        color: white;
+        padding: 30px;
+      }
+      header {
+        position: sticky;
+        top: 0px;
+      }
+      nav {
+        background-color: beige;
+        height: 53px;
+      }
+      ul {
+        margin: 7px 40px;
+      }
+      ul li {
+        display: inline-block;
+        padding: 13px;
+      }
+      .container {
+        background-color: rgb(231, 200, 161);
+        margin: 80px 54px;
+        text-align: center;
+        padding: 80px 25px;
+      }
+      .box1 {
+        background-color: aqua;
+        height: 70vh;
+        width: 45%;
+        display: inline-block;
+        margin: 0 12px;
+      }
+      .box2 {
+        background-color: rgb(20, 73, 73);
+        height: 70vh;
+        width: 45%;
+        display: inline-block;
+        margin: 0 12px;
+      }
+      footer {
+        background-color: blue;
+        height: 53px;
+      }
+      .text-box {
+        padding: 34px;
+        border: 2px solid white;
+        margin: 37px 22vw;
+        font-size: 1em;
+        border-radius: 24px;
+        text-align: center;
+      }
+      .orangebox {
+        height: 100px;
+        width: 100px;
+        background-color: orange;
+        border-radius: 120px;
+        position: fixed;
+        bottom: 25px;
+        right: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Contacts</li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="box1"></div>
+        <div class="box2"></div>
+      </div>
+      <div class="text-box">
+        <p>Welcome to Sigma web development course</p>
+      </div>
+      <div class="orangebox"></div>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
