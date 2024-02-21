@@ -1,0 +1,5 @@
+Options + Indexes
+IndexOptions FancyIndexing NameWidth = * DescriptionWidth=*
+
+#rename this file from "htaccess.txt" to ".htaccess"
+#it was just done to uplaod it on github
